@@ -9,20 +9,20 @@ Detects emotions from speech audio (recordings) using acoustic feature extractio
 - audio feature extraction including MFCC, pitch, energy, and spectral features
 
 ## Tech Stack
-Python 3.13 - main
-Streamlit - web interface
-RAVDESS - emotional speech data
+- Python 3.13 - main
+- Streamlit - web interface
+- RAVDESS - emotional speech data
 
-scikit-learn - Random Forest classifier & model evaluation
-pandas - data manipulation & csv handling
-numpy - numerical computations
+- scikit-learn - Random Forest classifier & model evaluation
+- pandas - data manipulation & csv handling
+- numpy - numerical computations
 
-librosa - feature extraction
+- librosa - feature extraction
 
-matplotlib/seaborn - Plotting & confusion matrices
-joblib - Model serialization
+- matplotlib/seaborn - Plotting & confusion matrices
+- joblib - Model serialization
 
 ## Installation
-Clone this repo. Create a venv.
-Install dependencies: `pip install -r requirements.txt`
-For web interface: `streamlit run app.py`
+Clone this repo. Create a venv.  
+Install dependencies: `pip install -r requirements.txt`  
+For web interface: `streamlit run app.py`  
